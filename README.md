@@ -148,12 +148,7 @@
 
   <section id="research-interests" class="section">
     <h2>Research Interests</h2>
-    <ul>
-      <li>Personal Finance</li>
-      <li>Behavioural Finance</li>
-      <li>Consumer Behaviour</li>
-      <li>Diversity Management</li>
-    </ul>
+    <p>Personal Finance | Behavioural Finance | Consumer Behaviour | Diversity Management</p>
   </section>
 
   <section id="publications" class="section">
@@ -174,7 +169,7 @@
 
   <section id="contact" class="section">
     <h2>Contact</h2>
-    <p>Email: <a href="mailto:arjuntp@example.com">arjuntp@example.com</a></p>
+    <p>Email: <a href="mailto:arjuntp30@gmail.com">arjuntp@example.com</a></p>
   </section>
 
 </main>
