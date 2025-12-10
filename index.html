@@ -4,51 +4,56 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Arjun T P | Academic Profile</title>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 <style>
-  body { margin:0; font-family: 'Inter', sans-serif; background: #1e3a8a; color:white; }
+  body { margin:0; font-family:'Inter',sans-serif; background:linear-gradient(to bottom right, #0b2b5a, #235aa6); color:white; }
   header { display:flex; justify-content:space-between; align-items:center; padding:2rem; }
-  nav a { margin-left:1rem; color:white; text-decoration:none; font-weight:500; }
+  header h1 { font-size:3rem; font-weight:bold; }
+  nav a { margin-left:1.5rem; color:white; text-decoration:none; font-weight:500; }
   nav a:hover { text-decoration:underline; }
-  .container { max-width:800px; margin:2rem auto; text-align:center; }
-  h2 { margin-top:2rem; margin-bottom:1rem; font-size:2rem; }
-  p { line-height:1.6; text-align:justify; color:#e0e7ff; }
-  .social-icons a { margin:0 0.8rem; font-size:2rem; color:white; }
-  .social-icons a:hover { color:#60a5fa; }
-  ul { list-style-type:disc; margin-left:1.5rem; color:#e0e7ff; text-align:justify; }
+  .container { max-width:800px; margin:0 auto; padding:2rem; text-align:center; }
+  h2 { font-size:2rem; margin-bottom:1rem; }
+  p { line-height:1.6; margin-bottom:1rem; text-align:justify; }
+  .social-icons { margin-top:2rem; display:flex; justify-content:center; gap:2rem; font-size:2rem; }
+  .social-icons a { color:white; }
+  .social-icons a:hover { color:#93c5fd; }
+  .research { margin-top:2rem; font-size:1.2rem; color:#e0e7ff; }
 </style>
 </head>
 <body>
 
 <header>
-  <h1 class="text-4xl font-bold">Arjun T P</h1>
+  <h1>Arjun T P</h1>
   <nav>
+    <a href="#about">About Me</a>
     <a href="employment.html">Employment</a>
     <a href="academic-background.html">Academic</a>
     <a href="certification.html">Certification</a>
     <a href="qualifications.html">Qualification</a>
     <a href="fellowships.html">Fellowships</a>
     <a href="publications.html">Publications</a>
+    <a href="#contact">Contact</a>
   </nav>
 </header>
 
 <div class="container">
   <!-- About Me -->
-  <h2>About Me</h2>
-  <p>
-    I am an early-career researcher with interests in behavioural finance, personal finance,
-    and consumer behaviour. My work focuses on understanding how individuals make financial decisions
-    in evolving digital and socio-economic contexts.
-  </p>
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I am an early-career researcher with interests in behavioural finance, personal finance,
+      and consumer behaviour. My work focuses on understanding how individuals make financial decisions
+      in evolving digital and socio-economic contexts.
+    </p>
+  </section>
 
-  <!-- Research Interests -->
-  <h2>Research Interests</h2>
-  <ul>
-    <li>Personal Finance</li>
-    <li>Behavioural Finance</li>
-    <li>Consumer Behaviour</li>
-    <li>Diversity Management</li>
-  </ul>
+  <!-- Research Interests in Single Row -->
+  <section id="research">
+    <h2>Research Interests</h2>
+    <p class="research">
+      Personal Finance | Behavioural Finance | Consumer Behaviour | Diversity Management
+    </p>
+  </section>
 
   <!-- Social Media -->
   <div class="social-icons">
@@ -58,8 +63,10 @@
   </div>
 
   <!-- Contact -->
-  <h2>Contact</h2>
-  <p>Email: <a href="mailto:arjuntp30@gmail.com" style="color:#93c5fd;">arjuntp30@gmail.com</a></p>
+  <section id="contact" style="margin-top:2rem;">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:arjuntp30@gmail.com" style="color:#93c5fd;">arjuntp30@gmail.com</a></p>
+  </section>
 </div>
 
 </body>
