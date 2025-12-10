@@ -4,10 +4,11 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Arjun T P | Academic Profile</title>
-  <link rel="preconnect" href="<a href="https://fonts.googleapis.com">" target="_blank">https://fonts.googleapis.com"></a>
-  <link rel="preconnect" href="<a href="https://fonts.gstatic.com"" target="_blank">https://fonts.gstatic.com"</a> crossorigin>
-  <link href="<a href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"" target="_blank">https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"</a> rel="stylesheet">
+  
   <style>
+    body.dark-mode{background:#0b2b5a; color:white;}
+    body.dark-mode .container{background:#ffffff11; color:white;}
+    body.dark-mode a{color:#9ecbff;}
     :root{
       --dark-bg:#0b2b5a; /* dark blue */
       --accent:#235aa6;
@@ -93,18 +94,24 @@
 <body>
 
 <header>
+  <div style="position:absolute; top:20px; right:20px;">
+    <button onclick="document.body.classList.toggle('dark-mode')" style="background:#ffffff22; border:1px solid #ffffff55; color:white; padding:6px 14px; border-radius:6px; cursor:pointer;">Toggle Mode</button>
+  </div>
   <div class="header-inner">
     <h1>Arjun T P</h1>
-    <p>Personal Finance · Behavioural Finance · Consumer Behaviour</p>
-    <div class="links">
-      <a href="<a href="https://www.linkedin.com/in/arjun-t-p-b94ba8152"" target="_blank">https://www.linkedin.com/in/arjun-t-p-b94ba8152"</a> target="_blank">LinkedIn</a>
-      <a href="<a href="https://scholar.google.com/citations?user=sX62stUAAAAJ&hl=en"" target="_blank">https://scholar.google.com/citations?user=sX62stUAAAAJ&hl=en"</a> target="_blank">Google Scholar</a>
-      <a href="<a href="https://orcid.org/0000-0001-9531-0121"" target="_blank">https://orcid.org/0000-0001-9531-0121"</a> target="_blank">ORCID</a>
+    
+    <div class="links" style="display:flex; gap:14px; align-items:center; margin-top:12px;">
+      <a href="https://www.linkedin.com/in/arjun-t-p-b94ba8152" target="_blank" aria-label="LinkedIn"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" alt="LinkedIn" style="width:24px; filter:invert(1);"></a>
+      <a href="https://scholar.google.com/citations?user=sX62stUAAAAJ&hl=en" target="_blank" aria-label="Google Scholar"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/googlescholar.svg" alt="Google Scholar" style="width:24px; filter:invert(1);"></a>
+      <a href="https://orcid.org/0000-0001-9531-0121" target="_blank" aria-label="ORCID"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/orcid.svg" alt="ORCID" style="width:24px; filter:invert(1);"></a>
     </div>
   </div>
 </header>
 
-<main class="container">
+<main class="container" style="margin-top:40px;">
+  <div style="text-align:center; margin-bottom:20px;">
+    <img src="https://via.placeholder.com/160" alt="Profile Photo" style="width:160px; height:160px; border-radius:50%; object-fit:cover; border:4px solid var(--dark-bg);">
+  </div>
 
   <section id="about-me" class="section">
     <h2>About Me</h2>
@@ -169,7 +176,7 @@
 
   <section id="contact" class="section">
     <h2>Contact</h2>
-    <p>Email: <a href="mailto:arjuntp30@gmail.com">arjuntp@example.com</a></p>
+    <p>Email: <a href="mailto:arjuntp30@gmail.com">arjuntp@gmail.com</a></p>
   </section>
 
 </main>
