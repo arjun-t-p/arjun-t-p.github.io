@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -176,7 +175,7 @@
 
   <section id="contact" class="section">
     <h2>Contact</h2>
-    <p>Email: <a href="mailto:arjuntp30@gmail.com">arjuntp@gmail.com.com</a></p>
+    <p>Email: <a href="mailto:arjuntp30@gmail.com">arjuntp@gmail.com</a></p>
   </section>
 
 </main>
